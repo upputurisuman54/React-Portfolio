@@ -33,7 +33,7 @@ I am continuously learning new technologies and improving my development skills.
 ## ▶️ How to Run Locally
 1. Clone the repository
    ```bash
-   git clone https://github.com/your-username/your-repo-name.git
+   git clone https://github.com/upputurisuman54/React-Portfolio.git
 
 2. Navigate to the project directory
 
@@ -51,7 +51,7 @@ npm run dev
 
 🌐 Live Demo
 
-https://vercel.com/upputurisuman53-2055s-projects/react-portfolio
+https://react-portfolio-ngyobsai2-upputurisuman53-2055s-projects.vercel.app
 
 📄 License
 
