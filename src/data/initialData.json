@@ -1,0 +1,137 @@
+{
+  "profile": {
+    "name": "UPPUTURI SUMAN",
+    "title": "Java Developer",
+    "phone": "+91 6301942568",
+    "email": "upputurisuman53@gmail.com",
+    "location": "Vijayawada",
+    "linkedin": "https://linkedin.com/in/upputuri-suman-a0730726b",
+    "photo": "/assets/profile.jpeg",
+    "summary": "Dedicated Full-Stack Java Developer with practical experience in Spring Boot, REST APIs, and MySQL. Proficient in building scalable applications using Core Java, React.js, and modern MVC architecture. Passionate about creating efficient, user-friendly solutions."
+  },
+  "resume": {
+    "url": "/assets/Suman_Resume.pdf",
+    "parsed": true
+  },
+  "skills": [
+    "Java",
+    "Core Java (OOP, Multithreading, Streams)",
+    "Spring",
+    "Spring Boot",
+    "JDBC",
+    "Servlets",
+    "JSP",
+    "HTML",
+    "CSS",
+    "JavaScript",
+    "ReactJS",
+    "MySQL",
+    "Maven",
+    "Git",
+    "JUnit",
+    "REST APIs",
+    "Design Patterns",
+    "SOLID Principles"
+  ],
+  "projects": [
+    {
+      "id": "p1",
+      "title": "Question Paper Generator System",
+      "description": "A comprehensive full-stack Java application for generating dynamic question papers. Features include question bank management, difficulty-based selection, and automated paper generation with customizable templates.",
+      "link": "https://example.com/question-paper-generator",
+      "image": "/assets/project1.jpg",
+      "tech": ["Spring Boot", "JSP", "Servlets", "MySQL", "Maven"]
+    },
+    {
+      "id": "p2",
+      "title": "Tic Tac Toe Game",
+      "description": "An interactive console-based Java application implementing classic Tic Tac Toe with turn-based logic, board validation, win detection algorithms, and clean OOP design patterns.",
+      "link": "https://example.com/tic-tac-toe",
+      "image": "/assets/project2.jpg",
+      "tech": ["Core Java", "OOP", "Design Patterns"]
+    }
+  ],
+  "experience": [
+    {
+      "id": "e1",
+      "role": "Java Full Stack Developer Intern",
+      "company": "EXCELR",
+      "period": "Dec 2024 - Apr 2025",
+      "description": [
+        "Developed RESTful APIs using Spring Boot for enterprise applications",
+        "Implemented database operations with MySQL and JDBC",
+        "Built responsive front-end components using React.js",
+        "Collaborated with senior developers on code reviews and best practices"
+      ]
+    },
+    {
+      "id": "e2",
+      "role": "Full Stack Web Developer Intern",
+      "company": "PANTECHSOLUTIONS",
+      "period": "Apr 2024 - Jun 2024",
+      "description": [
+        "Created dynamic web applications using HTML, CSS, and JavaScript",
+        "Developed server-side logic with Java Servlets and JSP",
+        "Integrated MySQL databases for data persistence",
+        "Participated in agile development sprints and daily standups"
+      ]
+    }
+  ],
+  "education": [
+    {
+      "id": "edu1",
+      "degree": "Bachelor of Computer Science",
+      "institution": "MVR College of Engineering and Technology",
+      "grade": "CGPA: 7.4",
+      "year": "2020 - 2024"
+    },
+    {
+      "id": "edu2",
+      "degree": "Intermediate",
+      "institution": "Sri Saraswathi Junior College",
+      "grade": "CGPA: 7.95",
+      "year": "2018 - 2020"
+    },
+    {
+      "id": "edu3",
+      "degree": "SSC",
+      "institution": "ZP High School",
+      "grade": "CGPA: 9.5",
+      "year": "2018"
+    }
+  ],
+  "certifications": [
+    {
+      "id": "c1",
+      "title": "Java Full Stack Development",
+      "issuer": "CV Corp Training Institute",
+      "date": "Nov 2025",
+      "file": "/assets/cert_java_fullstack.jpeg",
+      "category": "Java"
+    },
+    {
+      "id": "c2",
+      "title": "Java Programming Course",
+      "issuer": "Crio.Do",
+      "date": "2024",
+      "file": "/assets/cert_java.jpeg",
+      "category": "Java"
+    },
+    {
+      "id": "c3",
+      "title": "Web Development",
+      "issuer": "CoderOne Training Institute",
+      "date": "Dec 2024",
+      "file": "/assets/cert_web_development.jpeg",
+      "category": "Web Development"
+    },
+    {
+      "id": "c4",
+      "title": "SQL Programming",
+      "issuer": "LinkedIn Learning",
+      "date": "Dec 2025",
+      "file": "/assets/cert_sql.jpeg",
+      "category": "Database"
+    }
+  ]
+}
