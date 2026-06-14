@@ -5,7 +5,7 @@ import profileImage from '@/assets/profile.jpeg';
 import ProfileUploader from './ProfileUploader';
 
 const typedTexts = [
-  'Java Developer',
+  'Java Full Stack Developer',
 ];
 
 const Hero: React.FC = () => {
@@ -15,7 +15,7 @@ const Hero: React.FC = () => {
   const [isDeleting, setIsDeleting] = useState(false);
   const [showProfileUploader, setShowProfileUploader] = useState(false);
 
-  // Typing animation effect
+
   useEffect(() => {
     const currentFullText = typedTexts[currentTextIndex];
     const typingSpeed = isDeleting ? 50 : 100;
@@ -42,7 +42,7 @@ const Hero: React.FC = () => {
   }, [displayText, isDeleting, currentTextIndex]);
 
   const handleDownloadResume = () => {
-    // Create a link to download the resume
+
     const link = document.createElement('a');
     link.href = resume.url;
     link.download = 'UPPUTURI_Suman_Resume.pdf';
@@ -88,12 +88,12 @@ const Hero: React.FC = () => {
               Hello, I'm
             </p>
 
-            {/* Name with Neon Effect */}
+
             <h1 className="text-5xl md:text-6xl lg:text-7xl font-black mb-4 animate-fade-up neon-text" style={{ animationDelay: '0.2s' }}>
               <span className="gradient-text">{profile.name}</span>
             </h1>
 
-            {/* Typed Title with Enhanced Visibility */}
+
             <div className="h-14 mb-8 animate-fade-up flex items-center justify-center lg:justify-start" style={{ animationDelay: '0.3s' }}>
               <span className="text-2xl md:text-3xl lg:text-4xl font-bold text-foreground">
                 {displayText}
@@ -101,12 +101,12 @@ const Hero: React.FC = () => {
               </span>
             </div>
 
-            {/* Summary with Better Contrast */}
+
             <p className="text-lg md:text-xl text-foreground/85 max-w-xl mx-auto lg:mx-0 mb-8 leading-relaxed font-medium animate-fade-up" style={{ animationDelay: '0.4s' }}>
               {profile.summary}
             </p>
 
-            {/* Contact Info with Glass Cards */}
+            
             <div className="flex flex-wrap justify-center lg:justify-start gap-3 mb-8 animate-fade-up" style={{ animationDelay: '0.5s' }}>
               <a href={`tel:${profile.phone}`} className="flex items-center gap-2 px-4 py-2 glass-card rounded-full hover:scale-105 transition-all text-foreground font-medium">
                 <Phone className="w-4 h-4 text-primary" />
@@ -122,7 +122,6 @@ const Hero: React.FC = () => {
               </span>
             </div>
 
-            {/* CTA Buttons */}
             <div className="flex flex-wrap justify-center lg:justify-start gap-4 animate-fade-up" style={{ animationDelay: '0.6s' }}>
               <button
                 onClick={handleDownloadResume}
@@ -150,7 +149,7 @@ const Hero: React.FC = () => {
               </button>
             </div>
 
-            {/* Social Links with Enhanced Icons */}
+            
             <div className="flex justify-center lg:justify-start gap-4 mt-8 animate-fade-up" style={{ animationDelay: '0.7s' }}>
               <a
                 href={profile.linkedin}
@@ -162,7 +161,7 @@ const Hero: React.FC = () => {
                 <Linkedin className="w-6 h-6 text-primary group-hover:text-accent transition-colors" />
               </a>
               <a
-                href="https://github.com"
+                href="https://github.com/upputurisuman54"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="group p-4 glass-card rounded-2xl hover:scale-110 transition-all duration-300 card-glow"
@@ -183,12 +182,12 @@ const Hero: React.FC = () => {
                 </div>
               </div>
               
-              {/* Glow Effect */}
+
               <div className="absolute inset-[-20px] bg-gradient-to-r from-primary to-accent rounded-full blur-2xl opacity-40 group-hover:opacity-60 transition-opacity duration-500 animate-pulse-slow" />
               
-              {/* Image Container */}
+
               <div className="relative w-64 h-64 md:w-80 md:h-80 lg:w-96 lg:h-96">
-                {/* Glass Frame */}
+
                 <div className="absolute inset-0 glass-panel rounded-full p-2 group-hover:scale-105 transition-transform duration-500">
                   <div className="w-full h-full rounded-full overflow-hidden bg-gradient-to-br from-primary/20 to-secondary/20">
                     <img
@@ -199,7 +198,7 @@ const Hero: React.FC = () => {
                   </div>
                 </div>
 
-                {/* Admin Edit Button */}
+
                 {isAdminMode && (
                   <button
                     onClick={() => setShowProfileUploader(true)}
@@ -211,8 +210,7 @@ const Hero: React.FC = () => {
                 )}
               </div>
 
-              {/* Decorative Elements */}
-              <div className="absolute -top-4 -right-4 w-10 h-10 bg-accent rounded-full animate-float shadow-lg shadow-accent/30" />
+             <div className="absolute -top-4 -right-4 w-10 h-10 bg-accent rounded-full animate-float shadow-lg shadow-accent/30" />
               <div className="absolute -bottom-2 -left-2 w-8 h-8 bg-primary rounded-full animate-float shadow-lg shadow-primary/30" style={{ animationDelay: '1s' }} />
               <div className="absolute top-1/4 -left-6 w-4 h-4 bg-primary/60 rounded-full animate-float" style={{ animationDelay: '0.5s' }} />
               <div className="absolute bottom-1/4 -right-4 w-5 h-5 bg-accent/60 rounded-full animate-float" style={{ animationDelay: '1.5s' }} />
@@ -221,14 +219,14 @@ const Hero: React.FC = () => {
         </div>
       </div>
 
-      {/* Scroll Indicator */}
+
       <div className="absolute bottom-8 left-1/2 -translate-x-1/2 animate-bounce">
         <div className="w-6 h-10 rounded-full border-2 border-foreground/50 flex justify-center pt-2">
           <div className="w-1 h-2 bg-foreground/50 rounded-full animate-scroll-indicator" />
         </div>
       </div>
 
-      {/* Profile Uploader Modal */}
+
       {showProfileUploader && (
         <ProfileUploader onClose={() => setShowProfileUploader(false)} />
       )}

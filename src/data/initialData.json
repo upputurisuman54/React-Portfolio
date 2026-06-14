@@ -1,54 +1,43 @@
 {
   "profile": {
     "name": "UPPUTURI SUMAN",
-    "title": "Java Developer",
+    "title": "Java Full Stack Developer",
     "phone": "+91 6301942568",
     "email": "upputurisuman53@gmail.com",
-    "location": "Vijayawada",
+    "location": "Hyderabad",
     "linkedin": "https://linkedin.com/in/upputuri-suman-a0730726b",
     "photo": "/assets/profile.jpeg",
-    "summary": "Dedicated Full-Stack Java Developer with practical experience in Spring Boot, REST APIs, and MySQL. Proficient in building scalable applications using Core Java, React.js, and modern MVC architecture. Passionate about creating efficient, user-friendly solutions."
+    "summary": "Java Full Stack Developer fresher with hands-on experience in Spring Boot, Hibernate, JPA, and RESTful API design, backed by a strong foundation in React and MySQL. Delivered 2+ end-to-end web applications featuring JWT authentication, role-based access control, and AI-powered features. Skilled in MVC architecture, Agile/Scrum delivery, and Git-based version control with a consistent focus on writing clean, scalable, and testable code."
   },
   "resume": {
     "url": "/assets/Suman_Resume.pdf",
     "parsed": true
   },
   "skills": [
-    "Java",
-    "Core Java (OOP, Multithreading, Streams)",
-    "Spring",
-    "Spring Boot",
-    "JDBC",
-    "Servlets",
-    "JSP",
-    "HTML",
-    "CSS",
-    "JavaScript",
-    "ReactJS",
-    "MySQL",
-    "Maven",
-    "Git",
-    "JUnit",
-    "REST APIs",
-    "Design Patterns",
-    "SOLID Principles"
+    "Java", "Python", "JavaScript", "SQL", "Spring Core", "Spring Boot",
+    "Spring Security", "Hibernate", "JPA", "JDBC", "REST APIs", "JWT Authentication",
+    "ReactJS", "HTML5", "CSS3", "JSON", "MySQL", "Maven", "Git", "GitHub",
+    "CI/CD", "VS Code", "Eclipse", "Postman", "JUnit", "Integration Testing",
+    "API Testing", "Agile", "Scrum", "SDLC", "OOP", "Collections Framework",
+    "Exception Handling", "Multithreading", "Streams API", "MVC Architecture",
+    "SOLID Principles", "CRUD Operations", "API Integration"
   ],
   "projects": [
     {
       "id": "p1",
-      "title": "Question Paper Generator System",
-      "description": "A comprehensive full-stack Java application for generating dynamic question papers. Features include question bank management, difficulty-based selection, and automated paper generation with customizable templates.",
-      "link": "https://example.com/question-paper-generator",
+      "title": "Smart Resume Builder with AI Suggestions",
+      "description": "Developed a full-stack SaaS resume builder with JWT authentication and role-based access control. Integrated AI for content suggestions and skill gap analysis. Implemented 10+ REST APIs using Spring Boot and configured MySQL with 7 relational tables. Built a responsive React frontend with live preview and PDF generation using iText.",
+      "link": "https://github.com/upputurisuman54/Resume-builder",
       "image": "/assets/project1.jpg",
-      "tech": ["Spring Boot", "JSP", "Servlets", "MySQL", "Maven"]
+      "tech": ["Spring Boot", "React", "MySQL", "JWT", "REST APIs", "Spring Security", "iText"]
     },
     {
       "id": "p2",
-      "title": "Tic Tac Toe Game",
-      "description": "An interactive console-based Java application implementing classic Tic Tac Toe with turn-based logic, board validation, win detection algorithms, and clean OOP design patterns.",
-      "link": "https://example.com/tic-tac-toe",
+      "title": "Contact Management System",
+      "description": "Architected a full-stack contact manager with JWT auth and role-based access for USER and ADMIN roles. Designed 16 REST APIs using Spring Boot and MySQL, improving data retrieval speed by 30% through indexing. Implemented favourites, photo upload, and many-to-many group organization using Hibernate/JPA. Built responsive React.js frontend with real-time search reducing lookup time by 40% for end users.",
+      "link": "https://github.com/upputurisuman54/ContactManagementSystem",
       "image": "/assets/project2.jpg",
-      "tech": ["Core Java", "OOP", "Design Patterns"]
+      "tech": ["Spring Boot", "React", "MySQL", "JWT", "REST APIs", "Spring Security"]
     }
   ],
   "experience": [
@@ -58,10 +47,10 @@
       "company": "EXCELR",
       "period": "Dec 2024 - Apr 2025",
       "description": [
-        "Developed RESTful APIs using Spring Boot for enterprise applications",
-        "Implemented database operations with MySQL and JDBC",
-        "Built responsive front-end components using React.js",
-        "Collaborated with senior developers on code reviews and best practices"
+        "Architected 2+ web applications using Java, Spring Boot, MySQL, HTML5, CSS3, and JavaScript following MVC architecture",
+        "Designed 10+ REST APIs using Spring Boot for backend processing, data integration and third-party integrations",
+        "Streamlined MySQL queries improving application performance by 30% through indexing and query refactoring",
+        "Collaborated in Agile/Scrum environment to deliver scalable, production-ready modules on schedule"
       ]
     },
     {
@@ -70,10 +59,9 @@
       "company": "PANTECHSOLUTIONS",
       "period": "Apr 2024 - Jun 2024",
       "description": [
-        "Created dynamic web applications using HTML, CSS, and JavaScript",
-        "Developed server-side logic with Java Servlets and JSP",
-        "Integrated MySQL databases for data persistence",
-        "Participated in agile development sprints and daily standups"
+        "Delivered responsive web applications using React, Node.js, and MySQL with reusable components and REST APIs",
+        "Enhanced MySQL queries and connection pooling to improve application performance",
+        "Resolved 10+ real-time issues to ensure stable performance and seamless user experience"
       ]
     }
   ],
@@ -83,42 +71,34 @@
       "degree": "Bachelor of Computer Science",
       "institution": "MVR College of Engineering and Technology",
       "grade": "CGPA: 7.4",
-      "year": "2020 - 2024"
+      "year": "2025"
     },
     {
       "id": "edu2",
       "degree": "Intermediate",
       "institution": "Sri Saraswathi Junior College",
       "grade": "CGPA: 7.95",
-      "year": "2018 - 2020"
+      "year": "2021"
     },
     {
       "id": "edu3",
       "degree": "SSC",
       "institution": "ZP High School",
       "grade": "CGPA: 9.5",
-      "year": "2018"
+      "year": "2019"
     }
   ],
   "certifications": [
     {
       "id": "c1",
       "title": "Java Full Stack Development",
-      "issuer": "CV Corp Training Institute",
+      "issuer": "CVCORP Training Institute",
       "date": "Nov 2025",
       "file": "/assets/cert_java_fullstack.jpeg",
       "category": "Java"
     },
     {
       "id": "c2",
-      "title": "Java Programming Course",
-      "issuer": "Crio.Do",
-      "date": "2024",
-      "file": "/assets/cert_java.jpeg",
-      "category": "Java"
-    },
-    {
-      "id": "c3",
       "title": "Web Development",
       "issuer": "CoderOne Training Institute",
       "date": "Dec 2024",
@@ -126,12 +106,20 @@
       "category": "Web Development"
     },
     {
-      "id": "c4",
+      "id": "c3",
       "title": "SQL Programming",
       "issuer": "LinkedIn Learning",
       "date": "Dec 2025",
       "file": "/assets/cert_sql.jpeg",
       "category": "Database"
+    },
+    {
+      "id": "c4",
+      "title": "Java Programming",
+      "issuer": "Crio.Do",
+      "date": "Jan 2024",
+      "file": "/assets/cert_java.jpeg",
+      "category": "Java"
     }
   ]
 }

@@ -9,8 +9,9 @@ const skillCategories = [
     skills: [
       { name: 'Java', level: 90 },
       { name: 'JavaScript', level: 80 },
-      { name: 'HTML', level: 85 },
-      { name: 'CSS', level: 80 },
+      { name: 'HTML5', level: 85 },
+      { name: 'CSS3', level: 80 },
+      { name: 'SQL', level:85}
     ],
   },
   {
@@ -18,7 +19,9 @@ const skillCategories = [
     skills: [
       { name: 'Spring Boot', level: 85 },
       { name: 'ReactJS', level: 75 },
-      { name: 'Spring', level: 80 },
+      { name: 'Spring Security', level: 80 },
+      { name: 'Hibernate', level: 85},
+      { name: 'JPA', level: 80}
     ],
   },
   {
@@ -28,6 +31,7 @@ const skillCategories = [
       { name: 'Git', level: 80 },
       { name: 'Maven', level: 75 },
       { name: 'JUnit', level: 70 },
+      {name:'GitHub', level:80}
     ],
   },
 ];

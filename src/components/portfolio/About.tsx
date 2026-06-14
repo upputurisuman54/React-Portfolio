@@ -6,12 +6,12 @@ const highlights = [
   {
     icon: Code,
     title: 'Backend Development',
-    description: 'Expert in Java, Spring Boot, and RESTful API design',
+    description: 'Spring Boot, Hibernate, JPA, and RESTful API design',
   },
   {
     icon: Globe,
     title: 'Frontend Development',
-    description: 'Proficient in React.js, HTML, CSS, and JavaScript',
+    description: 'Proficient in React.js, HTML5, CSS3, and JavaScript',
   },
   {
     icon: Database,
@@ -21,7 +21,7 @@ const highlights = [
   {
     icon: Sparkles,
     title: 'Best Practices',
-    description: 'Following SOLID principles and design patterns',
+    description: 'Following SOLID principles and clean, testable code',
   },
 ];
 
@@ -50,15 +50,15 @@ const About: React.FC = () => {
           {/* About Content */}
           <div className="space-y-6 animate-fade-up" style={{ animationDelay: '0.1s' }}>
             <p className="text-lg text-foreground leading-relaxed font-medium">
-              I'm <span className="font-bold text-primary">{profile.name}</span>, a passionate
-              Full-Stack Java Developer with a strong foundation in building scalable web applications.
-              My journey in software development has equipped me with hands-on experience in both
-              backend and frontend technologies.
+              I'm <span className="font-bold text-primary">{profile.name}</span>, a Java Full Stack
+              Developer fresher with hands-on experience in Spring Boot, Hibernate, JPA, and
+              RESTful API design, backed by a strong foundation in React and MySQL.
             </p>
             <p className="text-lg text-foreground leading-relaxed font-medium">
-              I specialize in creating robust server-side applications using Spring Boot and Java,
-              while also crafting intuitive user interfaces with React.js. My approach combines
-              technical excellence with clean, maintainable code following industry best practices.
+              I've delivered 2+ end-to-end web applications featuring JWT authentication,
+              role-based access control, and AI-powered features. I'm skilled in MVC architecture,
+              Agile/Scrum delivery, and Git-based version control with a consistent focus on
+              writing clean, scalable, and testable code.
             </p>
             <p className="text-lg text-foreground leading-relaxed font-medium">
               Currently based in {profile.location}, I'm always eager to take on new challenges
@@ -72,11 +72,11 @@ const About: React.FC = () => {
                 <div className="text-sm text-foreground font-semibold">Years Learning</div>
               </div>
               <div className="glass-panel p-4 rounded-xl text-center">
-                <div className="text-3xl font-bold gradient-text">5+</div>
+                <div className="text-3xl font-bold gradient-text">2+</div>
                 <div className="text-sm text-foreground font-semibold">Projects</div>
               </div>
               <div className="glass-panel p-4 rounded-xl text-center">
-                <div className="text-3xl font-bold gradient-text">4</div>
+                <div className="text-3xl font-bold gradient-text">4+</div>
                 <div className="text-sm text-foreground font-semibold">Certifications</div>
               </div>
             </div>
