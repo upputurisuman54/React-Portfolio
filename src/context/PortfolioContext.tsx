@@ -104,7 +104,7 @@ interface PortfolioContextType extends PortfolioState {
   toggleTheme: () => void;
 }
 
-const STORAGE_KEY = 'portfolio_data';
+const STORAGE_KEY = 'portfolio_data_v2';
 const ADMIN_PASSWORD = 'admin123'; // TODO: Replace with secure authentication in production
 
 const PortfolioContext = createContext<PortfolioContextType | undefined>(undefined);
